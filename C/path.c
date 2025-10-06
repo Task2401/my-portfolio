@@ -50,7 +50,6 @@ int main(int argc, char **argv) {
         }
     }
 
-    // Ανακατασκευή μονοπατιού
     int *path = malloc((2 * map_size) * sizeof(int));
     int rows = map_size - 1, cols = map_size - 1;
     int path_size = 0;
